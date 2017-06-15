@@ -1,0 +1,10 @@
+<div class="card-content">
+
+  <paper-input label="Username" value={{username}} {{action "updateName" on="input"}} {{action "notifyMe" on="click"}}>
+    <div slot="suffix">@digilar.se</div>
+  </paper-input>
+
+  <paper-button raised {{action 'signIn'}}>Sign in</paper-button>
+
+  <p class="nt1">{{username}}</p>
+</div>
